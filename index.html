@@ -8,8 +8,8 @@
 </head>
 <body class="v-mid sans-serif helvetica mine-shaft">
   <div class="flex justify-around items-center w100-ns pa3 mw100-ns  w60-m mw60-m w40-l mw40-l ph5-m ph7-l mh6-l">
-    <p class="fw8 f4 link dim br3 ba bw1 ph3 pv2 mb2 dib black" onclick="en();workshops();">English</p>
-    <p class="fw8 f4 link dim br3 ba bw1 ph3 pv2 mb2 dib black" onclick="zh();">Chinese</p>
+    <p id="btn-en" class="fw8 f4 link dim br3 ba bw1 ph3 pv2 mb2 dib black ba shadow-1 lewagon-red" onclick="display('zh', 'en', 'btn-en', 'btn-zh');">English</p>
+    <p id="btn-zh" class="fw8 f4 link dim br3 ba bw1 ph3 pv2 mb2 dib black" onclick="display('zh', 'en', 'btn-en', 'btn-zh');">Chinese</p>
   </div>
   <div class="w100-ns pa3 mw100-ns  w60-m mw60-m w40-l mw40-l ph5-m ph7-l mh6-l" id="en">
     <article class="pa4 br2 b--dark-blue ba shadow-1 mv3 lh-copy">
@@ -102,7 +102,7 @@
     </div>
   </div>
 
-  <div class="w100-ns pa3 mw100-ns  w60-m mw60-m w40-l mw40-l ph5-m ph7-l mh6-l" id="zh">
+  <div class="w100-ns pa3 mw100-ns  w60-m mw60-m w40-l mw40-l ph5-m ph7-l mh6-l dn" id="zh">
     <article class="pa4 br2 b--dark-blue ba shadow-1 mv3 lh-copy">
       <header class="fw7 f4 tc mv2">在过去六个月里在Le Wagon 和 裸心社支持下我给出的6场讲座</header>
       <p class="fw5">完成了Le Wagon的全栈编程营之后，我加入了Le Wagon大使计划，从五月到十月，每个月在裸心社虹桥店给出一场不同主题的讲座</p>

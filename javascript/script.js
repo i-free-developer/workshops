@@ -150,12 +150,21 @@ function showDetails_6_en(e,sub_id) {
   }
 }
 
-function en() {
-  var en = document.getElementById('en');
-  en.classList.toggle("dn");
+function display(id,id2,btn,btn2) {
+  document.getElementById(id).classList.toggle("dn");
+  document.getElementById(id2).classList.toggle('dn');
+  document.getElementById(btn).classList.toggle('lewagon-red');
+  document.getElementById(btn2).classList.toggle('lewagon-red');
 }
+
 function workshops(id) {
-  fetch('javascript/workshops.json').then((response) => {
-    console.log(response);
-  });
+  var myHeaders = new Headers();
+  fetch('https://xhacker-1256477841.cos.ap-shanghai.myqcloud.com/workshops.json', {
+    headers: myHeaders,
+    mode: 'no-cors',
+    cache: 'default'
+    }).then((response) => {console.log(response)}).then((data) => {console.log(data)});
 }
+
+
+
