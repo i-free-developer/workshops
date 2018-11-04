@@ -44,164 +44,6 @@ function showDetails(e,sub_id) {
   }
 }
 
-
-
-
-
-
-
-function showDetails_1_zh(e,sub_id) {
-  console.log(e,sub_id, obj)
-  var node = document.createElement('SECTION')
-  node.classList = "tc lewagon-red white hover-white br2 ba shadow-1 h-auot ph3 mv3"
-  node.id = sub_id;
-  var node_html = `
-    <div class="flex flex-column justify-around">
-      <p class="f5 fw6 mt5">Product pitch: precisely define your value proposition</p>
-      <p class="f5 fw6">Mockup: make a basic mockup of your app</p>
-      <p class="f5 fw6">Database: what's the core database scheme of your product</p>
-      <p class="f5 fw6 mb4">User stories: write and organize your user stories</p>
-      <div class="flex justify-between items-center">
-        <img src="images/lewagon-logo.png" alt="" class="w4">
-        <p class="tc fw8 f4">@xiaohu Pei</p>
-      </div>
-    </div>`
-  node.innerHTML = node_html;
-  x = document.getElementById(e);
-  y = document.getElementById(sub_id);
-  if (y == null) {
-    x.appendChild(node);
-  } else {
-    x.removeChild(x.childNodes[x.childNodes.length - 1]);
-  }
-}
-
-function showDetails_2_zh(e,sub_id) {
-  console.log(e,sub_id)
-  var node = document.createElement('SECTION')
-  node.classList = "tc lewagon-red white hover-white br2 ba shadow-1 h-auot ph3 mv3"
-  node.id = sub_id;
-  var node_html = `
-    <div class="flex flex-column justify-around">
-      <p class="f5 fw6 mt5">Project Management Methodologies</p>
-      <p class="f5 fw6">GitHub Workflow</p>
-      <p class="f5 fw6">Project Management Tools</p>
-      <p class="f5 fw6 mb4">Setting Project Scope</p>
-      <div class="flex justify-between items-center">
-        <img src="images/lewagon-logo.png" alt="" class="w4">
-        <p class="tc fw8 f4">@xiaohu Pei</p>
-      </div>
-    </div>`
-  node.innerHTML = node_html;
-  x = document.getElementById(e);
-  y = document.getElementById(sub_id);
-  if (y == null) {
-    x.appendChild(node);
-  } else {
-    x.removeChild(x.childNodes[x.childNodes.length - 1]);
-  }
-}
-
-function showDetails_3_zh(e,sub_id) {
-  console.log(e,sub_id)
-  var node = document.createElement('SECTION')
-  node.classList = "tc lewagon-red white hover-white br2 ba shadow-1 h-auot ph3 mv3"
-  node.id = sub_id;
-  var node_html = `
-    <div class="flex flex-column justify-around">
-      <p class="f5 fw6 mt5">Use Git for version control</p>
-      <p class="f5 fw6">use GitHub for teamwork</p>
-      <p class="f5 fw6">GitHub Pages</p>
-      <div class="flex justify-between items-center">
-        <img src="images/lewagon-logo.png" alt="" class="w4">
-        <p class="tc fw8 f4">@xiaohu Pei</p>
-      </div>
-    </div>`
-  node.innerHTML = node_html;
-  x = document.getElementById(e);
-  y = document.getElementById(sub_id);
-  if (y == null) {
-    x.appendChild(node);
-  } else {
-    x.removeChild(x.childNodes[x.childNodes.length - 1]);
-  }
-}
-
-function showDetails_4_zh(e,sub_id) {
-  console.log(e,sub_id)
-  var node = document.createElement('SECTION')
-  node.classList = "tc lewagon-red white hover-white br2 ba shadow-1 h-auot ph3 mv3"
-  node.id = sub_id;
-  var node_html = `
-    <div class="flex flex-column justify-around">
-      <p class="f5 fw6 mt5">Build a landing page to test your business idea</p>
-      <p class="f5 fw6">Improve your marketing skills</p>
-      <p class="f5 fw6">Meet other amazing human beings with a growth mindset</p>
-      <div class="flex justify-between items-center">
-        <img src="images/lewagon-logo.png" alt="" class="w4">
-        <p class="tc fw8 f4">@xiaohu Pei</p>
-      </div>
-    </div>`
-  node.innerHTML = node_html;
-  x = document.getElementById(e);
-  y = document.getElementById(sub_id);
-  if (y == null) {
-    x.appendChild(node);
-  } else {
-    x.removeChild(x.childNodes[x.childNodes.length - 1]);
-  }
-}
-
-function showDetails_5_zh(e,sub_id) {
-  console.log(e,sub_id)
-  var node = document.createElement('SECTION')
-  node.classList = "tc lewagon-red white hover-white br2 ba shadow-1 h-auot ph3 mv3"
-  node.id = sub_id;
-  var node_html = `
-    <div class="flex flex-column justify-around">
-      <p class="f5 fw6 mt5">Basic conceps of Wechat mini programs</p>
-      <p class="f5 fw6">Get a mini program ID</p>
-      <p class="f5 fw6">Wechat mini program IDE</p>
-      <div class="flex justify-between items-center">
-        <img src="images/lewagon-logo.png" alt="" class="w4">
-        <p class="tc fw8 f4">@xiaohu Pei</p>
-      </div>
-    </div>`
-  node.innerHTML = node_html;
-  x = document.getElementById(e);
-  y = document.getElementById(sub_id);
-  if (y == null) {
-    x.appendChild(node);
-  } else {
-    x.removeChild(x.childNodes[x.childNodes.length - 1]);
-  }
-}
-
-function showDetails_6_zh(e,sub_id) {
-  console.log(e,sub_id)
-  var node = document.createElement('SECTION')
-  node.classList = "tc lewagon-red white hover-white br2 ba shadow-1 h-auot ph3 mv3"
-  node.id = sub_id;
-  var node_html = `
-    <div class="flex flex-column justify-around">
-      <p class="f5 fw6 mt5">Basic conceps of Wechat mini programs</p>
-      <p class="f5 fw6">Get a mini program ID</p>
-      <p class="f5 fw6">Wechat mini program IDE</p>
-      <div class="flex justify-between items-center">
-        <img src="images/lewagon-logo.png" alt="" class="w4">
-        <p class="tc fw8 f4">@xiaohu Pei</p>
-      </div>
-    </div>`
-  node.innerHTML = node_html;
-  x = document.getElementById(e);
-  y = document.getElementById(sub_id);
-  if (y == null) {
-    x.appendChild(node);
-  } else {
-    x.removeChild(x.childNodes[x.childNodes.length - 1]);
-  }
-}
-
 function display(id,id2,btn,btn2) {
   document.getElementById(id).classList.toggle("dn");
   document.getElementById(id2).classList.toggle('dn');
@@ -245,7 +87,7 @@ function workshops(id) {
       "tips": "You do NOT need any prior coding experience to be able to attend (and enjoy!)\nPlease BRING YOUR LAPTOP!",
       "tips_zh": "本工作坊适合零基础编程经验的人\n请带上笔记本电脑！",
       "takeaway_en": ['Project Management Methodologies', 'GitHub Workflow', 'Project Management Tools','Setting Project Scope'],
-      "takeaway_zh": ['Project Management Methodologies', 'GitHub Workflow', 'Project Management Tools','Setting Project Scope'],
+      "takeaway_zh": ['项目管理方法论', 'GitHub 工作流', '项目管理工具','项目范围'],
       "finished": true,
       "month": "June",
       "day": "26th",
@@ -261,7 +103,7 @@ function workshops(id) {
       "tips": "You do NOT need any prior coding experience to be able to attend (and enjoy!)\nPlease BRING YOUR LAPTOP!",
       "tips_zh": "本工作坊适合零基础编程经验的人\n请带上笔记本电脑！",
       "takeaway_en": ['Use Git for version control', 'Use GitHub for teamwork', 'GitHub Pages'],
-      "takeaway_zh": ['Use Git for version control', 'Use GitHub for teamwork', 'GitHub Pages'],
+      "takeaway_zh": ['使用Git进行版本控制', '使用GitHub进行团队协作', 'GitHub静态网页'],
       "finished": true,
       "month": "July",
       "day": "24th",
@@ -277,7 +119,7 @@ function workshops(id) {
       "tips": "You do NOT need any prior coding experience to be able to attend (and enjoy!)\nPlease BRING YOUR LAPTOP!\nPlease download Sublime Text: www.sublimetext.com",
       "tips_zh": "本工作坊适合零基础编程经验的人\n请带上笔记本电脑！",
       "takeaway_en": ['Build a landing page to test your business idea', 'Improve your marketing skills', 'Meet other amazing human beings with a growth mindset'],
-      "takeaway_zh": ['Build a landing page to test your business idea', 'Improve your marketing skills', 'Meet other amazing human beings with a growth mindset'],
+      "takeaway_zh": ['创建一个网页去测试你的商业想法', '提高你的市场技能', '见到更多和你一样有着成长心态的人'],
       "finished": true,
       "month": "Aug",
       "day": "28th",
@@ -293,7 +135,7 @@ function workshops(id) {
       "tips": "You do NOT need any prior coding experience to be able to attend (and enjoy!)\nPlease BRING YOUR LAPTOP!",
       "tips_zh": "本工作坊适合零基础编程经验的人\n请带上笔记本电脑！",
       "takeaway_en": ['Basic conceps of Wechat mini programs', 'Get a mini program ID', 'Wechat mini program IDE'],
-      "takeaway_zh": ['Basic conceps of Wechat mini programs', 'Get a mini program ID', 'Wechat mini program IDE'],
+      "takeaway_zh": ['微信小程序基本概念', '注册你自己的小程序ID', '小程序开发者工具'],
       "finished": true,
       "month": "Sep",
       "day": "18th",
@@ -309,7 +151,7 @@ function workshops(id) {
       "tips": "You must have some HTML/CSS basic knowledge (and have played a bit with Bootstrap)\nIf you have attended the '2 hours landing page' workshop, this is enough to come to this one!\nPlease BRING YOUR LAPTOP!",
       "tips_zh": "必须具有一些HTML/CSS基础知识（并且有操作Bootstrap的经验）\n如果你曾经参加过Le Wagon的“两小时制作登陆界面”工作坊，就足够参加这次的工作坊了！\n请带上笔记本电脑！",
       "takeaway_en": ['Popular components with examples from nice websites (Product Hunt, Medium, etc.)', 'How to organize your CSS with component files, with naming conventions!', 'The Flexbox', 'Useful CSS3 techniques to code cool components'],
-      "takeaway_zh": ['Popular components with examples from nice websites (Product Hunt, Medium, etc.)', 'How to organize your CSS with component files, with naming conventions!', 'The Flexbox', 'Useful CSS3 techniques to code cool components'],
+      "takeaway_zh": ['以优秀的网站（Product Hunt, Medium等）为例，展示流行的设计组件', '如何使用命名有条理地将自己的CSS与组件文档存档', 'Flexbox工具', '用来编写炫酷组件的实用CSS3技巧'],
       "finished": false,
       "month": "Oct",
       "day": "30th",
